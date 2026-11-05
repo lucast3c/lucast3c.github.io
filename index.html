@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Automações PDJF</title>
+  <meta name="description" content="Ferramenta interna do Pé Descalço Juiz de Fora.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main class="pagina">
+    <header>
+      <span class="selo">Ferramenta interna</span>
+      <h1>Automações PDJF</h1>
+      <p class="subtitulo">Ferramenta interna de para automações de fluxos internos do PDJF.</p>
+    </header>
+
+    <section class="cartao">
+      <p><strong>Uso restrito.</strong> Esta ferramenta é usada apenas pela coordenação do
+        Pé Descalço Juiz de Fora. Não há cadastro público nem acesso para outras pessoas
+        ou organizações.</p>
+    </section>
+
+    <h2>O que a ferramenta faz</h2>
+    <ul>
+      <li>Lê a planilha de frequência das aulas, onde cada professor e estagiário tem
+        marcadas as aulas que deu em cada dia.</li>
+      <li>Lê uma planilha de configuração com as funções, os valores por hora ou por dia,
+        as localidades e os adicionais de cada pessoa.</li>
+      <li>Calcula o valor do mês de cada pessoa, separado por localidade.</li>
+      <li>Gera um relatório em PDF e atualiza um histórico em JSON numa pasta do Google
+        Drive da própria coordenação.</li>
+    </ul>
+
+    <h2>Como usa a sua conta Google</h2>
+    <p>Para funcionar, a ferramenta pede autorização à conta Google da coordenação para:</p>
+    <ul>
+      <li><strong>Google Sheets:</strong> ler a planilha de frequência e a planilha de
+        configuração (somente leitura).</li>
+      <li><strong>Google Drive:</strong> criar a planilha de configuração e gravar o relatório
+        do mês e o histórico na pasta indicada.</li>
+    </ul>
+    <p>Os dados ficam na própria conta Google da coordenação. Eles não são vendidos, não são
+      compartilhados com terceiros e não são usados para publicidade nem para treinar
+      modelos de inteligência artificial. Os detalhes estão na
+      <a href="privacidade.html">Política de Privacidade</a>.</p>
+
+    <h2>Contato</h2>
+    <p>Dúvidas sobre a ferramenta ou sobre os dados: <a href="mailto:Lucas">lucas.t3c@gmail.com</a>.</p>
+
+    <footer>
+      <a href="privacidade.html">Política de Privacidade</a>
+      <span>Pé Descalço Juiz de Fora</span>
+    </footer>
+  </main>
+</body>
+</html>
