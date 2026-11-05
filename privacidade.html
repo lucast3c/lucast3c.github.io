@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade · Pagamentos PDJF</title>
+  <meta name="description" content="Como a ferramenta Pagamentos PDJF trata dados pessoais e dados de usuário do Google.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main class="pagina">
+    <header>
+      <span class="selo">Pagamentos PDJF</span>
+      <h1>Política de Privacidade</h1>
+      <p class="meta">Última atualização: 5 de novembro de 2026</p>
+    </header>
+
+    <p>Esta política explica como a ferramenta <strong>Automações PDJF</strong> trata dados
+      pessoais e dados obtidos das APIs do Google. Ela segue a Lei Geral de Proteção de Dados
+      (Lei nº 13.709/2018, LGPD) e a Política de Dados do Usuário dos Serviços de API do Google.</p>
+
+    <h2>1. Quem é o responsável</h2>
+    <p>O controlador dos dados é o <strong>Pé Descalço Juiz de Fora</strong>. A ferramenta é de
+      uso interno da coordenação e não é oferecida ao público.</p>
+    <p>Contato para assuntos de privacidade e para exercer seus direitos:
+      <a href="mailto:Lucas">lucas.t3c@gmail.com</a>.</p>
+
+    <h2>2. Quais dados são tratados</h2>
+    <div class="tabela">
+      <table>
+        <thead>
+          <tr><th>Dado</th><th>De quem</th><th>Origem</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nome</td><td>Professores e estagiários</td><td>Planilhas de frequência e de configuração</td></tr>
+          <tr><td>Frequência (dias e aulas dadas)</td><td>Professores e estagiários</td><td>Planilha de frequência</td></tr>
+          <tr><td>Função, valor por hora ou por dia, adicionais e descontos</td><td>Professores e estagiários</td><td>Planilha de configuração</td></tr>
+          <tr><td>Valores calculados a pagar</td><td>Professores e estagiários</td><td>Gerados pela ferramenta</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Nenhum dado sensível (como saúde, religião ou origem racial), documento de
+      identificação ou dado bancário é tratado.</p>
+
+    <h2>3. Para que os dados são usados</h2>
+    <p>Exclusivamente para calcular e documentar o pagamento mensal pelas aulas dadas.
+      A base legal é a execução do contrato ou da relação de prestação de serviço com cada
+      professor e estagiário (art. 7º, V, da LGPD), além do cumprimento de obrigações legais
+      de registro de pagamentos (art. 7º, II).</p>
+
+    <h2>4. Dados de usuário do Google</h2>
+    <p>A ferramenta acessa a conta Google da coordenação, com autorização explícita, apenas para:</p>
+    <ul>
+      <li><strong>Ler</strong> a planilha de frequência e a planilha de configuração no Google
+        Sheets (escopo de somente leitura de planilhas).</li>
+      <li><strong>Criar e atualizar</strong>, na pasta do Google Drive indicada pela
+        coordenação, a planilha de configuração, o relatório mensal em PDF e o histórico em
+        JSON (escopo do Google Drive).</li>
+    </ul>
+    <p>A ferramenta não lê, altera nem apaga outros arquivos da conta. Ela também não acessa
+      e-mails, contatos, agenda ou qualquer outro serviço.</p>
+    <div class="cartao">
+      <p>O uso e a transferência, para qualquer outro aplicativo, de informações recebidas das
+        APIs do Google seguirão a
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de
+        Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso
+        Limitado.</p>
+    </div>
+    <p>Em especial, os dados do Google <strong>não</strong> são:</p>
+    <ul>
+      <li>vendidos ou cedidos a terceiros;</li>
+      <li>usados para publicidade, inclusive personalizada;</li>
+      <li>usados para avaliar crédito ou para qualquer finalidade alheia ao cálculo de pagamentos;</li>
+      <li>usados para desenvolver, melhorar ou treinar modelos de inteligência artificial ou
+        aprendizado de máquina;</li>
+      <li>lidos por pessoas, exceto pela própria coordenação ou quando exigido por lei.</li>
+    </ul>
+
+    <h2>5. Onde os dados ficam e por quanto tempo</h2>
+    <ul>
+      <li>As planilhas, os relatórios e o histórico ficam na conta Google da coordenação, em
+        pasta de acesso restrito.</li>
+      <li>O cálculo roda no computador da coordenação ou em uma execução automática no GitHub
+        Actions, num repositório privado. Ali, a autorização de acesso fica guardada como
+        segredo criptografado, e os registros de execução não mostram nomes nem valores.</li>
+      <li>Não há banco de dados nem servidor próprio da ferramenta. Nenhum dado é guardado
+        fora da conta Google da coordenação.</li>
+      <li>Relatórios e histórico são mantidos enquanto forem necessários para a comprovação
+        dos pagamentos e para obrigações legais. Depois disso, são apagados.</li>
+    </ul>
+
+    <h2>6. Compartilhamento</h2>
+    <p>Os dados não são compartilhados com terceiros. O acesso à pasta do Drive e às
+      planilhas é limitado às pessoas da coordenação responsáveis pelos pagamentos. Cada
+      professor ou estagiário pode receber as informações do próprio pagamento.</p>
+
+    <h2>7. Segurança</h2>
+    <ul>
+      <li>As credenciais de acesso nunca ficam no código nem no repositório. Elas ficam
+        protegidas no computador da coordenação e como segredo criptografado no GitHub.</li>
+      <li>As permissões pedidas ao Google se limitam ao necessário para o funcionamento.</li>
+      <li>As planilhas e a pasta do Drive são compartilhadas apenas com quem precisa.</li>
+    </ul>
+
+    <h2>8. Seus direitos</h2>
+    <p>Professores e estagiários podem, a qualquer momento, pedir: confirmação de que seus
+      dados são tratados; acesso a eles; correção de dados incompletos ou errados; e
+      informações sobre o uso e o compartilhamento. Também podem pedir anonimização ou
+      eliminação, quando o dado não for necessário para obrigações legais (art. 18 da LGPD).
+      Os pedidos são feitos pelo e-mail
+      <a href="mailto:EMAIL_DE_CONTATO">EMAIL_DE_CONTATO</a> e respondidos em até 15 dias.</p>
+    <p>Também é possível apresentar reclamação à Autoridade Nacional de Proteção de Dados
+      (<a href="https://www.gov.br/anpd">ANPD</a>).</p>
+
+    <h2>9. Como revogar o acesso ao Google</h2>
+    <p>A autorização dada à ferramenta pode ser revogada a qualquer momento em
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+      A partir daí a ferramenta não acessa mais a conta.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Mudanças nesta política serão publicadas nesta página, com a data de atualização no
+      topo.</p>
+
+    <footer>
+      <a href="index.html">Pagamentos PDJF</a>
+      <span>Pé Descalço Juiz de Fora</span>
+    </footer>
+  </main>
+</body>
+</html>
